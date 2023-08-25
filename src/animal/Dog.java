@@ -1,3 +1,7 @@
+package animal;
+
+import animal.Pet;
+
 public class Dog extends Pet {
     private static int countPet;
 
@@ -15,7 +19,7 @@ public class Dog extends Pet {
         countPet++;
     }
 
-    @Override
+ //   @Override
     void say() {
         System.out.println("Гав!");
     }

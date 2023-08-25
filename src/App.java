@@ -1,22 +1,27 @@
 public class App {
     public static void main(String[] args) {
-        Cat timon = new Cat("Timon", 18);
-        Cat tihon = new Cat("Tihon", 15);
-        Cat tom = new Cat("Tom", 15);
+//       animal.Cat timon = new animal.Cat("Timon", 18);
+//       animal.Cat tihon = new animal.Cat("Tihon", 15);
+//       animal.Cat tom = new animal.Cat("Tom", 15);
 
-        Cat dysya = new Cat();
-        Cat mysya = new Cat();
-        timon.say();
+//       animal.Cat dysya = new animal.Cat();
+//       animal.Cat mysya = new animal.Cat();
+//       timon.say();
 
-        System.out.println(Cat.getCountPet());
+//       System.out.println(animal.Cat.getCountPet());
 
 
-        Dog kuzya = new Dog("Кузя", 18);
-        Dog myhtar = new Dog();
+//       animal.Dog kuzya = new animal.Dog("Кузя", 18);
+//       animal.Dog myhtar = new animal.Dog();
 
-        myhtar.say();
+//       myhtar.say();
 
-        System.out.println(Dog.getCountPet());
+//       System.out.println(animal.Dog.getCountPet());
+        Pizza margarita = new Pizza(5,3);
+        Pizza myasnay = new Pizza(5,1);
+
+        System.out.println(margarita.getSatiety());
+        System.out.println(myasnay.getSatiety());
 
     }
 }
